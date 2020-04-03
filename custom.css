@@ -1,27 +1,34 @@
 #top {
-  text-align:center;
-}
+  text-align: center; }
 
 #menu {
-    margin: 30px;
-}
+  margin: 30px; }
 
 #menu table {
-    color: black;
-    font-size: 24px;
-    text-align: center;
-    border: 4px solid royalblue;
-    border-collapse: collapse;
-    margin: 0 auto;
-    width: 90%;
-}
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  border: 4px solid steelblue;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 90%; }
 
 #menu table th {
-    border: 4px solid royalblue;
-    padding: 5px;
-    background-color: dodgerblue;
-}
+  border: 4px solid steelblue;
+  padding: 5px;
+  background-color: #00599B; }
 
 #About {
-    margin: 30px;
-}
+  margin: 30px; }
+
+#About h6 {
+  margin-bottom: 40px; }
+
+a {
+  color: white; }
+
+a:hover {
+  color: white;
+  text-decoration: none; }
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,43 @@
+$acent: steelblue;
+$acent1: #00599B;
+$acent2: royalblue;
+
+#top {
+  text-align:center;
+}
+
+#menu {
+    margin: 30px;
+}
+
+#menu table {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    border: 4px solid $acent;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 90%;
+}
+
+#menu table th {
+    border: 4px solid $acent;
+    padding: 5px;
+    background-color: $acent1;
+}
+
+#About {
+    margin: 30px;
+}
+
+#About h6 {
+    margin-bottom: 40px;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
