@@ -8,7 +8,20 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="custom.css">
         <!--Mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            @media (min-width: 720px) {
+                #logo img{
+                    width: 400px;
+                }
+            }
+            @media (max-width: 719px) {
+                #logo img{
+                    width: 250px;
+                }
+            }
+        </style>
     </head>
 
     <body>
@@ -27,7 +40,7 @@
         <div class="container">
             <div id="logo" class="row">
                 <div class="col-sm">
-                    <img src="eliocroca-logo.png" width="300px">
+                    <img src="eliocroca-logo.png">
                 </div>
             </div>
         </div>
@@ -45,7 +58,7 @@
                     <a href="table.html">Table</a>
                 </div>
                 <div id="menu" class="col py-2">
-                    <a href="result.html">Next Match</a>
+                    <a href="nextmatch.html">Next Match</a>
                 </div>
             </div>
         </div>
